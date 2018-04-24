@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+os:
+  - windows
+  - osx
+  - liunx
+node_js:
+  - "9"
+  - "8"
+  - "7"
+  - "6"
+git:
+  depth: 10
+matrix:
+  fast_finish: true
+  allow_failures:
+    - node_js: "8.11.1"

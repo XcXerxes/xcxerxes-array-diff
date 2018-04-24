@@ -1,0 +1,27 @@
+{
+  "name": "xcxerxes-array-diff",
+  "version": "0.0.1",
+  "description": "Returns an array with only the unique values present in all given arrays using strict equality for comparisons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XcXerxes/xcxerxes-array-diff.git"
+  },
+  "keywords": [
+    "[node",
+    "array",
+    "diff]"
+  ],
+  "author": "xcxerxes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XcXerxes/xcxerxes-array-diff/issues"
+  },
+  "homepage": "https://github.com/XcXerxes/xcxerxes-array-diff#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
