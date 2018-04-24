@@ -33,5 +33,7 @@
    it('should diff elements from null', () => {
      assert.deepEqual(diff([1, 2, 3], null), [1, 2, 3])
    })
+   it('should diff elements from Number', () => {
+     assert.deepEqual(diff([1, 2, 3], 1), [1, 2, 3])
+   })
  })
- 
