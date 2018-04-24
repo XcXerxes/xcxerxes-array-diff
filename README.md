@@ -25,6 +25,9 @@ console.log(diff([1, 2, 3], []))
 
 console.log(diff([1, 2, 3], null))
 // -> [1, 2, 3]
+
+console.log(diff[1, 2, 3], 1)
+// -> [1, 2, 3]
 ```
 
 ## License
